@@ -10,7 +10,7 @@ function Navigation() {
       motion-rotate-in-loop motion-opacity-in-0 motion-translate-y-in-50 motion-blur-in-md motion-duration-[2s] "
       >
         {/* Navbar */}
-        <div className=" flex justify-between items-center w-3/4 p-4 ">
+        <div className="grid sm:flex sm:justify-between sm:items-center w-3/4 p-4 ">
           <div className="flex gap-1 items-center justify-center">
             <img src={logo} width="20%"></img>
             <p className="bg-gradient-to-r from-white via-[#ad68de] to-[#7d2ed9] bg-clip-text text-transparent  font-poppins font-bold">
@@ -19,7 +19,7 @@ function Navigation() {
           </div>
 
           <div>
-            <ul className="flex gap-5 p-5 tracking-wide">
+            <ul className="flex gap-5 p-5 tracking-wide w-full">
               <NavLink
                 to="/"
                 className={({ isActive }) => {
