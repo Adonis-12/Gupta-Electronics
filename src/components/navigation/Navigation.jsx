@@ -19,7 +19,7 @@ function Navigation() {
           </div>
 
           <div>
-            <ul className="flex gap-5 p-5 tracking-wide w-full">
+            <ul className="flex sm:gap-5 gap-3 sm:p-5 p-1 tracking-wide sm:w-full w-3/4">
               <NavLink
                 to="/"
                 className={({ isActive }) => {
