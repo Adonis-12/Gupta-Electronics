@@ -4,7 +4,7 @@ import Card from '../card/Card'
 function Products() {
   return (
     <>
-    <div className='h-screen text-white grid'>
+    <div className='min-h-screen text-white grid'>
 
          <div className='flex justify-center  mt-5 p-2 motion-rotate-in-loop motion-opacity-in-0 motion-translate-x motion-blur-in-md motion-duration-[2s]'>
             <h1 className='bg-gradient-to-r from-[#ad68de] to-[#4E0FAB] bg-clip-text text-transparent font-goth text-4xl'>PRODUCTS</h1>

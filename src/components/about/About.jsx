@@ -3,7 +3,7 @@ import profile from "./profile.PNG";
 
 function About() {
   return (
-    <div className=" text-white h-screen font-roboto_condensed font-light">
+    <div className=" text-white min-h-screen font-roboto_condensed font-light">
       {/* profile */}
       <div className="flex justify-center mt-8 
       motion-rotate-in-loop motion-opacity-in-0 motion-translate-y-in-50 motion-blur-in-md motion-duration-[2s]">
