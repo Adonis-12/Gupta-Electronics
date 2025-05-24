@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function LandingPage() {
   return (
     <>
-      <div className="w-full h-screen flex gap-2 text-gray-300 font-roboto_condensed font-light ">
+      <div className="sm:w-full min-h-screen flex gap-2 text-gray-300 font-roboto_condensed font-light ">
         <div className="sm:w-1/2 w-full grid  p-4 h-80vh m-5 grid-rows-12  ">
           <p className="p-2 font-goth row-span-4 motion-rotate-in-loop motion-opacity-in-0 motion-translate-x-in-50 motion-blur-in-md motion-duration-[2s] ">
             <span className="bg-gradient-to-r from-[#ad68de] to-[#4E0FAB] bg-clip-text text-transparent text-7xl ">
